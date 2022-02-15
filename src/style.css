@@ -1,0 +1,106 @@
+body {
+    background-image: url('./images/mexbkgrnd.gif');
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.title {
+    font-size: 30pt;
+    color: red;
+}
+
+.header {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.nav {
+    /* flex: auto; */
+    display: flex;
+    gap: 35px;
+}
+
+.nav button {
+    font-size: 23px;
+    padding: 2px 12px;
+    border-radius: 3px;
+    color: blanchedalmond;
+    background-color: rgb(151, 3, 3)
+}
+
+.nav button:hover {
+    color:rgb(151, 3, 3);
+    background-color: blanchedalmond;
+}
+
+.pageContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageTitle {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(151, 3, 3);
+    margin-bottom: 30px;
+}
+
+.homeContent {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.homeContent img{
+    border: solid brown;
+    border-radius: 4px;
+    width: 80%;
+    height: auto;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#favoritesContent {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    
+}
+
+.favoritesItem {
+    flex: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.itemName {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.menuItemPic {
+    border-radius: 4px;
+    flex: auto;
+    width: 45%;
+}
